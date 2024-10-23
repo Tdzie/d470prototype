@@ -1,0 +1,12 @@
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 7fr;
+
+}
+main h1{
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
